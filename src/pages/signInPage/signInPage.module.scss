@@ -1,0 +1,38 @@
+.signInContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  .formContainer {
+    width: 450px;
+    height: 350px;
+    padding: 40px;
+    background-color: #ddd;
+    border-radius: 15px;
+    h2 {
+      text-align: center;
+      margin-bottom: 100px;
+      font-weight: 400;
+    }
+    .usernameInput {
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      padding: 20px 15px;
+      margin-bottom: 20px;
+      &::placeholder {
+        color: black;
+      }
+    }
+    .submitButton {
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      padding: 20px 15px;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+  }
+}

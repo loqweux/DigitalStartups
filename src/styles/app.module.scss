@@ -1,0 +1,21 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  h1 {
+    font-weight: 400;
+  }
+  .logoutButton,
+  .signInButton {
+    border: none;
+    border-radius: 25px;
+    padding: 5px 45px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .signInButton {
+    padding: 8px 50px;
+  }
+}

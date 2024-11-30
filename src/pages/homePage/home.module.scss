@@ -1,0 +1,27 @@
+.homeContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 120px;
+  padding: 120px 0;
+  .postCard {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background: #f9f9f9;
+    box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.25);
+    .imagePlaceholder {
+      width: 100%;
+      height: 130px;
+      background-color: #ddd;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  }
+}
